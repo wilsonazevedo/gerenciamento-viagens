@@ -60,10 +60,10 @@ include('verifica_login.php');
 
 
       if($cad_viagem->rowCount()){
-        echo "<p style='color: green';>Veiculo cadastrado com sucesso!</p><br>";
+        echo "<p style='color: green';>Viagem cadastrada com sucesso!</p><br>";
         
       } else {
-        echo "<p style='color: #ff0000';>Erro: Veiculo não cadastrado!</p><br>";
+        echo "<p style='color: #ff0000';>Erro: Viagem não foi cadastrada!</p><br>";
         
       }}
 
